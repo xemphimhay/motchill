@@ -1,0 +1,33 @@
+{
+  "name": "ggg3/kkphim-theme-motchill",
+  "description": "KKPhim theme motchill mod",
+  "type": "library",
+  "require": {
+    "laravel/framework": "^6|^7|^8",
+    "ckfinder/ckfinder-laravel-package": "v3.5.2.1",
+    "haiau009/kkphim-core": "^1.0.0",
+    "jenssegers/agent": "^2.6"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "KKPhim\\ThemeMotchill\\": "src/",
+      "KKPhim\\ThemeMotchill\\Database\\Factories\\": "database/factories/",
+      "KKPhim\\ThemeMotchill\\Database\\Seeders\\": "database/seeders/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "KKPhim\\ThemeMotchill\\ThemeMotchillServiceProvider"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "liumen",
+      "email": "contact.animehay@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable"
+}
