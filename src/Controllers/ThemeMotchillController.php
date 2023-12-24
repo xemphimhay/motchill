@@ -73,10 +73,10 @@ class ThememotchillController
 
         $movie->generateSeoTags();
 
-        $movie->increment('view_total', 552);
-        $movie->increment('view_day', 552);
-        $movie->increment('view_week', 552);
-        $movie->increment('view_month', 552);
+        $movie->increment('view_total', 1);
+        $movie->increment('view_day', 1);
+        $movie->increment('view_week', 1);
+        $movie->increment('view_month', 1);
 
         $movie_related_cache_key = 'movie_related:' . $movie->id;
         $movie_related = Cache::get($movie_related_cache_key);
@@ -108,10 +108,10 @@ class ThememotchillController
 
         $episode->generateSeoTags();
 
-        $movie->increment('view_total', 552);
-        $movie->increment('view_day', 552);
-        $movie->increment('view_week', 552);
-        $movie->increment('view_month', 552);
+        $movie->increment('view_total', 1);
+        $movie->increment('view_day', 1);
+        $movie->increment('view_week', 1);
+        $movie->increment('view_month', 1);
 
         $movie_related_cache_key = 'movie_related:' . $movie->id;
         $movie_related = Cache::get($movie_related_cache_key);
